@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+.vscode
+.mypy_cache
+.pytest_cache
+*.log
+tmp/
+
+__pycache__/
+*.py[cod]
+$.py.class
+*.egg
+build
+htmlcov
+venv/
+.coverage

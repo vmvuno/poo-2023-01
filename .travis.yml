@@ -1,0 +1,17 @@
+language: python
+python:
+  - 3.9
+
+install:
+  - curl -sSL https://install.python-poetry.org | python3 -
+  - pip install coveralls
+  - poetry env use python3
+  - poetry install --no-root
+
+script:
+  - poetry run python -m flake8 --statistics -v
+  - poetry run python -m mypy ./
+  - poetry run python -m pytest --cov --cov-report=html tests/
+
+after_success:
+  - coveralls

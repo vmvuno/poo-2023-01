@@ -1,5 +1,5 @@
 import pytest
-from T07.Casa import Casa
+from t07.casa import Casa
 
 
 def test_class_casa(capsys: pytest.CaptureFixture) -> None:

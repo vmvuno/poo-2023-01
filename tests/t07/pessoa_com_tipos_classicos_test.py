@@ -1,5 +1,5 @@
 from datetime import date
-from T07.PessoaComTiposClassicos import Pessoa
+from t07.pessoa_com_tipos_classicos import Pessoa
 
 
 def test_atributo_nome() -> None:

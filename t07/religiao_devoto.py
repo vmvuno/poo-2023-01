@@ -1,5 +1,5 @@
 from __future__ import annotations
-from T07.PessoaComAtributos import Pessoa
+from t07.pessoa_com_atributos import Pessoa
 
 
 class Religiao:

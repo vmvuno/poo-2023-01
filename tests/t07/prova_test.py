@@ -1,4 +1,4 @@
-from T07.Prova import Prova
+from t07.prova import Prova
 
 
 def test_prova_sem_valor() -> None:

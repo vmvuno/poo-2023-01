@@ -1,4 +1,4 @@
-from T07.PessoaComNome import PessoaComNome as Pessoa
+from t07.pessoa_com_nome import PessoaComNome as Pessoa
 
 
 class Uniao:

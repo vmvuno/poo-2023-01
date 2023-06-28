@@ -1,4 +1,4 @@
-from T07.Interface import InterfaceProvaFormal, InterfaceProvaFormal2
+from t07.interface import InterfaceProvaFormal, InterfaceProvaFormal2
 from typing import Union
 
 

@@ -1,6 +1,6 @@
 import inspect
-from T07.Referencia import Referencia
-from T07.Revista import Revista
+from t07.referencia import Referencia
+from t07.revista import Revista
 
 
 def test_herança() -> None:

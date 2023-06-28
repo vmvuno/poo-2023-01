@@ -1,5 +1,5 @@
 import pytest
-from T07.Permuta import Permuta
+from t07.permuta import Permuta
 
 
 def test_permuta(capsys: pytest.CaptureFixture) -> None:

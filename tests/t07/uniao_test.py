@@ -1,6 +1,6 @@
 import pytest
-from T07.Uniao import Uniao
-from T07.PessoaComNome import PessoaComNome as Pessoa
+from t07.uniao import Uniao
+from t07.pessoa_com_nome import PessoaComNome as Pessoa
 
 
 @pytest.fixture

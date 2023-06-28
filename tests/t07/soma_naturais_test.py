@@ -1,4 +1,4 @@
-from T07.TestaSomaNaturais import soma_naturais
+from t07.testa_soma_naturais import soma_naturais
 
 
 def test_soma1() -> None:

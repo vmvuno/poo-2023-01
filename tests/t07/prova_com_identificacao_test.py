@@ -1,7 +1,7 @@
 from pytest import raises
-from T07.Interface import InterfaceProvaFormal, InterfaceProvaFormal2
-from T07.ProvaComInterface import ProvaComIdentificacaoPithonico
-from T07.ProvaComInterface import ProvaComIdentificacaoConvencional
+from t07.interface import InterfaceProvaFormal, InterfaceProvaFormal2
+from t07.prova_com_interface import ProvaComIdentificacaoPithonico
+from t07.prova_com_interface import ProvaComIdentificacaoConvencional
 
 
 def test_atributo_nome_pithonico() -> None:

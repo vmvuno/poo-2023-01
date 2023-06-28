@@ -1,6 +1,6 @@
 from inspect import isclass
 from pytest import fixture
-from T07.PessoasComHeranca import Pessoa, PessoaFisica, PessoaJuridica
+from t07.pessoas_com_heranca import Pessoa, PessoaFisica, PessoaJuridica
 
 
 @fixture

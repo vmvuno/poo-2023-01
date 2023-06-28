@@ -1,5 +1,5 @@
 import pytest
-from T07.Festa import Festa
+from t07.festa import Festa
 
 
 @pytest.fixture

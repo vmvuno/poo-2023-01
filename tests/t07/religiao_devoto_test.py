@@ -1,5 +1,5 @@
 import pytest
-from T07.ReligiaoDevoto import Religiao, Devoto
+from t07.religiao_devoto import Religiao, Devoto
 
 
 @pytest.fixture

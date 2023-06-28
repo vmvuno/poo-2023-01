@@ -1,4 +1,4 @@
-from T07.PessoaAbstrata import PessoaAbstrata
+from t07.pessoa_abstrata import PessoaAbstrata
 
 
 class PessoaJuridica(PessoaAbstrata):

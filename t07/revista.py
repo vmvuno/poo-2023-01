@@ -1,4 +1,4 @@
-from T07.Referencia import Referencia
+from t07.referencia import Referencia
 
 
 class Revista (Referencia):

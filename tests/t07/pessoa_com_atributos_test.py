@@ -1,4 +1,4 @@
-from T07.PessoaComAtributos import Pessoa
+from t07.pessoa_com_atributos import Pessoa
 
 
 def test_atributo_dia() -> None:

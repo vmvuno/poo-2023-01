@@ -1,6 +1,6 @@
 from inspect import isclass
-from T07.PessoaAbstrata import PessoaAbstrata
-from T07.PessoaFisica import PessoaFisica
+from t07.pessoa_abstrata import PessoaAbstrata
+from t07.pessoa_fisica import PessoaFisica
 
 
 def test_pessoa_fisica() -> None:

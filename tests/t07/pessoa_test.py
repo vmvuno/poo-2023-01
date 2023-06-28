@@ -1,4 +1,4 @@
-from T07.Pessoa import Pessoa
+from t07.pessoa import Pessoa
 
 
 def test_pessoa() -> None:

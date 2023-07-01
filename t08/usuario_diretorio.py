@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+
 class Usuario:
     def __init__(self) -> None:
         self.diretorios: list[Diretorio] = []
@@ -10,9 +11,10 @@ class Usuario:
                       autorizados_a_usar=usuarios_autorizados)
         )
 
-    def remover_diretorio(self, diretorio: Diretorio):
+    def remover_diretorio(self, diretorio: Diretorio) -> None:
         if diretorio in self.diretorios:
             self.diretorios.remove(diretorio)
+
 
 class Diretorio:
     def __init__(self,

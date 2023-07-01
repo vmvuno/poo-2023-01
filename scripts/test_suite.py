@@ -34,7 +34,11 @@ def run_test_suite() -> None:
     sep_line()
 
     print("\n\nTestes unitários e cobertura:\n")
-    subprocess.run("poetry run python -m pytest -v --cov",
+    subprocess.run("poetry run python -m pytest -v "
+                   "--cov=t07 "
+                   "--cov=t08 "
+                   "--cov=t09 "
+                   "--cov=t10 ",
                    shell=True, check=False)
 
     subprocess.run("poetry run python -m coverage html",

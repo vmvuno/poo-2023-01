@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "poo_2023_1"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "~3.11"
 coveralls = "^3.3.1"
 
 [tool.poetry.group.dev.dependencies]

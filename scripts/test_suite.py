@@ -38,7 +38,8 @@ def run_test_suite() -> None:
                    "--cov=t07 "
                    "--cov=t08 "
                    "--cov=t09 "
-                   "--cov=t10 ",
+                   "--cov=t10 "
+                   "--cov=t11 ",
                    shell=True, check=False)
 
     subprocess.run("poetry run python -m coverage html",

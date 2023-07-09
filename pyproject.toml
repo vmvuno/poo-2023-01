@@ -23,7 +23,7 @@ pyproject-flake8 = "^6.0.0.post1"
 poethepoet = "^0.20.0"
 
 [tool.flake8]
-max-line-length = 79
+max-line-length = 80
 max-complexity = 10
 
 [tool.mypy]

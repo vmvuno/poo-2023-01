@@ -42,7 +42,7 @@ Ferramenta: mypy
 ```sh
 poetry run_tests_and_coverage_analysis
 ```
-Executa os testes unitários e a análise de cobertura isoladamente.
+Executa os testes unitários e a análise de cobertura isoladamente.  
 Obs.: Testes unitários foram desenvolvidos apenas para o módulo T07, visto o tempo que demandavam e que não eram requisitados pela proposta do professor.  
 Ferramentas: pytest e pytest-cov
 

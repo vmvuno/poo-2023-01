@@ -39,8 +39,28 @@ show_error_codes = true
 [tool.poe]
 poetry_command = ""
 
+[tool.poe.tasks.run_style_analysis]
+script = "scripts.test_suite:run_style_analysis()"
+print_result = true
+
+[tool.poe.tasks.run_static_analysis]
+script = "scripts.test_suite:run_static_analysis()"
+print_result = true
+
+[tool.poe.tasks.run_tests_and_coverage_analysis]
+script = "scripts.test_suite:run_tests_and_coverage_analysis()"
+print_result = true
+
 [tool.poe.tasks.run_tests]
 script = "scripts.test_suite:run_test_suite()"
+print_result = true
+
+[tool.poe.tasks.count_lines]
+script = "scripts.line_counter:get_line_count()"
+print_result = true
+
+[tool.poe.tasks.count_classes]
+script = "scripts.class_counter:count_classes()"
 print_result = true
 
 [tool.pytest.ini_options]

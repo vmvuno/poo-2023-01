@@ -5,6 +5,7 @@ import re
 def count_classes(path: str = os.getcwd()) -> None:
     dir_files = os.listdir(path)
     class_count = 0
+    files_count = 0
     t_directories_count = 0
 
     for file in dir_files:
@@ -19,11 +20,19 @@ def count_classes(path: str = os.getcwd()) -> None:
 
                         content = file_handle.readlines()
 
+                    class_found = False
                     for line in content:
                         if re.search(r'^class .*:', line.strip()):
                             class_count += 1
 
+                            if not class_found:
+                                files_count += 1
+                                class_found = True
+
+
     print(f'Há {class_count} classe{"" if class_count < 2 else "s"} '
-          f'distribuídas em {t_directories_count} '
+          f'distribuídas em {files_count} '
+          f'arquivo{"" if files_count < 2 else "s"} '
+          f'em {t_directories_count} '
           f'diretório{"" if t_directories_count < 2 else "s"} '
           f'com formato t[n]')

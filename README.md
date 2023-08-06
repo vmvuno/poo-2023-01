@@ -1,4 +1,5 @@
 # POO 2023-1
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
  [![Build Status](https://app.travis-ci.com/vmvuno/poo-2023-01.svg?branch=main)](https://app.travis-ci.com/vmvuno/poo-2023-01) [![Coverage Status](https://coveralls.io/repos/github/vmvuno/poo-2023-01/badge.svg?branch=main)](https://coveralls.io/github/vmvuno/poo-2023-01?branch=main)
 
 ___

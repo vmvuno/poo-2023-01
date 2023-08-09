@@ -29,7 +29,6 @@ def count_classes(path: str = os.getcwd()) -> None:
                                 files_count += 1
                                 class_found = True
 
-
     print(f'Há {class_count} classe{"" if class_count < 2 else "s"} '
           f'distribuídas em {files_count} '
           f'arquivo{"" if files_count < 2 else "s"} '
